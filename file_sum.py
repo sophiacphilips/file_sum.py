@@ -7,14 +7,14 @@
 
 
 
-def file_sum(a_file):
+def file_sum():
     """
-    defines function named file_sum that will take as a parameter, the name of a text file (a_file) that contains
+    defines function named file_sum that will take as a parameter, a text file that contains
     a list of numbers. it will then take that list and sum the numbers in it. the sum will be written to a file
    called sum.txt
     """
     sum = 0 #initializes sum to zero before list has been given
-    with open(a_file, 'r') as infile: #opens the text file
+    with open('num_list', 'r') as infile: #opens the text file
         for line in infile: #iterates through lines of the text file
             sum += int(line) #sums list
 
