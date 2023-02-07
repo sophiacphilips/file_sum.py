@@ -16,7 +16,7 @@ def file_sum():
     sum = 0 #initializes sum to zero before list has been given
     with open('num_list', 'r') as infile: #opens the text file
         for line in infile: #iterates through lines of the text file
-            sum += int(line) #sums list
+            sum += str(line) #sums list
 
     with open('sum.txt', 'w') as outfile: #opens file sum.txt to write
         outfile.write(str(sum)) #wrties sum into sum.txt
