@@ -1,4 +1,8 @@
-
+#Name: Sophia Philips
+#GitHub Username: sophiacphilips
+#Date: 02/06/2023
+#This code is designed to take a list of number from a .txt file and sum them. Once they are summed the
+#program writes to a new file the final sum value.
 
 
 
@@ -18,7 +22,7 @@ def file_sum(a_file):
         outfile.write(str(sum)) #wrties sum into sum.txt
         infile.close() #closes infile
         outfile.close() #closes outfile
-       
+
 
 
 
